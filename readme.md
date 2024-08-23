@@ -207,7 +207,7 @@ Additionally, copy the Unicode mapping file.
 cp /usr/local/src/ModSecurity/unicode.mapping /etc/nginx/modsec/
 ```
 
-### nginx-1.19.0 is broken: undefined symbol: ngx_stream_add_variable
+### nginx-1.21.1 is broken: undefined symbol: ngx_stream_add_variable
 Got me most of the way there, but there is a slight mistake on the ln line. This worked for me:
 ```
 cd /etc/nginx/modules-enabled/
